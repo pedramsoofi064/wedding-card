@@ -1,6 +1,5 @@
 // app global css in SCSS form
 
-
 *,
 *::before,
 *::after {
@@ -16,6 +15,7 @@ body {
     background-color 0.5s;
   line-height: 1.6;
   font-family:
+    'Comme',
     Inter,
     -apple-system,
     BlinkMacSystemFont,
@@ -32,9 +32,9 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fbf9f3
 }
 
-
 p {
-    margin: 0;
+  margin: 0;
 }

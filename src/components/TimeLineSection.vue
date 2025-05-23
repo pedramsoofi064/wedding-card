@@ -1,100 +1,90 @@
 <template>
   <div class="q-px-lg q-py-md">
-    <q-timeline :layout="layout" color="secondary">
-      <q-timeline-entry heading>
-        Timeline heading
-        <br>
-        ({{ $q.screen.lt.sm ? 'Dense' : ($q.screen.lt.md ? 'Comfortable' : 'Loose') }} layout)
+
+    <div class="texts">
+    </div>
+    <q-timeline layout="loose" color="primary">
+
+      <q-timeline-entry side="left">
+        <template #title>
+          <div class="timeline-item">
+            <locationIcon class="timeline-item__icon" />
+
+            <div class="timeline-item__time">18:00</div>
+            <div class="timeline-item__title">Welcome</div>
+          </div>
+        </template>
       </q-timeline-entry>
 
-      <q-timeline-entry title="Event Title" subtitle="February 22, 1986" side="left">
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-          est laborum.
-        </div>
+      <q-timeline-entry side="right">
+        <template #title>
+          <div class="timeline-item">
+            <locationIcon class="timeline-item__icon" />
+
+            <div class="timeline-item__time">18:00</div>
+            <div class="timeline-item__title">Welcome</div>
+          </div>
+        </template>
+
       </q-timeline-entry>
 
-      <q-timeline-entry title="Event Title" subtitle="February 21, 1986" side="right" icon="delete">
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-          est laborum.
-        </div>
-      </q-timeline-entry>
+      <q-timeline-entry side="left">
+        <template #title>
+          <div class="timeline-item">
+            <locationIcon class="timeline-item__icon" />
 
-      <q-timeline-entry heading>November, 2017</q-timeline-entry>
+            <div class="timeline-item__time">18:00</div>
+            <div class="timeline-item__title">Welcome</div>
+          </div>
+        </template>
 
-      <q-timeline-entry title="Event Title" subtitle="February 22, 1986" side="left">
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-          est laborum.
-        </div>
-      </q-timeline-entry>
-
-      <q-timeline-entry title="Event Title" subtitle="February 22, 1986" side="right">
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-          est laborum.
-        </div>
-      </q-timeline-entry>
-
-      <q-timeline-entry title="Event Title" subtitle="February 22, 1986" side="left" color="orange" icon="done_all">
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-          est laborum.
-        </div>
-      </q-timeline-entry>
-
-      <q-timeline-entry title="Event Title" subtitle="February 22, 1986" side="right">
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-          est laborum.
-        </div>
-      </q-timeline-entry>
-
-      <q-timeline-entry title="Event Title" subtitle="February 22, 1986" side="left">
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-          est laborum.
-        </div>
       </q-timeline-entry>
     </q-timeline>
   </div>
 </template>
 
-<script>
-import { useQuasar } from 'quasar'
-import { computed } from 'vue'
+<script setup>
 
-export default {
-  setup() {
-    const $q = useQuasar()
+import locationIcon from './icons/location-icon.vue'
 
-    return {
-      layout: computed(() => {
-        return $q.screen.lt.sm ? 'dense' : ($q.screen.lt.md ? 'comfortable' : 'loose')
-      })
-    }
+</script>
+
+<style scoped lang="scss">
+.texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 30px;
+  font-family: "Vazirmatn", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 30px;
+  color: $primary;
+
+  >p {
+    font-weight: 500;
+    text-align: center;
   }
 }
-</script>
+
+.timeline-item {
+  display: flex;
+  flex-direction: column;
+  // align-items: flex-end;
+  align-items: center;
+  justify-content: center;
+  color: $primary;
+  gap: 0.5rem;
+
+  &__icon {
+    width: 100px;
+    fill: $primary;
+  }
+
+  &__time {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  &__title {}
+}
+</style>

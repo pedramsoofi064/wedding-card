@@ -7,7 +7,7 @@
         <div class="dates">
           <span class="date">1404.03.28</span>
           -
-          <span class="date">2025.01.01</span>
+          <span class="date">2025.06.18</span>
         </div>
         <span class="line"></span>
         <div class="place">
@@ -28,7 +28,7 @@
 
 .invite {
   // width: 320px;
-  height: 560px;
+  height: 90vh;
   background-size: cover;
   background-position: center;
   background-image: url('../assets/img/hero.JPG');
@@ -41,10 +41,18 @@
   // mask-size: 100% 100px;
 
   .names {
-    font-family: "Updock", cursive;
+    font-family: "Love Light", cursive;
+
     font-weight: 500;
-    font-size: 60px;
+    font-size: 70px;
     height: 75px;
+
+    @media (max-width: 450px) {
+      font-size: 22px;
+      font-size: 45px;
+      /* … */
+    }
+
   }
   .dates {
     display: flex;

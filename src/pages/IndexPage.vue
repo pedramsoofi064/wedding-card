@@ -8,8 +8,20 @@
 
       </div>
     </div> -->
-    <MainHero />
+    <div class="page">
+      <MainHero />
+      <div class="wedding-time">
+        the wedding time
+      </div>
+    </div>
+    <InvitationText />
+    <PoemSection image="poem3.jpg" :texts="peom" />
     <TimeLineSection />
+    <CountDownSection />
+
+
+
+
 
   </q-page>
 </template>
@@ -18,6 +30,18 @@
 import MainHero from 'src/components/MainHero.vue';
 // import BannerSection from 'src/components/BannerSection.vue';
 import TimeLineSection from 'src/components/TimeLineSection.vue';
+import PoemSection from 'src/components/PoemSection.vue';
+import CountDownSection from 'src/components/CountDownSection.vue';
+import InvitationText from 'src/components/Invitation-text.vue';
+
+
+const peom = [
+  { class: 'line', text: 'اشتیاقی که به دیدار تو‌ دارد دل من،' },
+  { class: 'line', text: 'دل من داند و‌ من دانم و دل داند و من .' },
+  { class: 'comma', text: '،،،' },
+  { class: 'line', text: 'خاک من گل شود و گل شکفد از گل من،' },
+  { class: 'line', text: 'تا ابد مهر تو بیرون نرود از دل من.' }
+];
 //
 </script>
 
@@ -31,6 +55,17 @@ import TimeLineSection from 'src/components/TimeLineSection.vue';
 .page {
   min-height: 100vh;
   scroll-snap-align: start;
+}
 
+.wedding-time {
+  width: 100%;
+  height: 10vh;
+  background-color: #f1e9de;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  font-family: "Love Light", cursive;
+  color: #585045;
 }
 </style>
