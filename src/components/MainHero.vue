@@ -19,7 +19,7 @@
       </div>
     </div>
     <div class="invite-desktop">
-      <img src="../assets/img/org.png" alt="">
+      <img src="../assets/img/org2.png" alt="">
       <div class="info">
         <div class="names">Negin & Pedram</div>
         <div class="dates">
