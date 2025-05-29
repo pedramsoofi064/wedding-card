@@ -8,16 +8,15 @@
 
       </div>
     </div> -->
-    <div class="page">
-      <MainHero />
-      <div class="wedding-time">
+    <MainHero />
+    <!-- <div class="wedding-time">
         the wedding time
-      </div>
-    </div>
+      </div> -->
     <InvitationText />
-    <PoemSection image="poem3.jpg" :texts="peom" />
+    <PoemSection image="test3-1.jpg" :texts="peom" />
     <TimeLineSection />
     <CountDownSection />
+    <AddressSection />
 
 
 
@@ -33,6 +32,7 @@ import TimeLineSection from 'src/components/TimeLineSection.vue';
 import PoemSection from 'src/components/PoemSection.vue';
 import CountDownSection from 'src/components/CountDownSection.vue';
 import InvitationText from 'src/components/Invitation-text.vue';
+import AddressSection from 'src/components/AddressSection.vue';
 
 
 const peom = [

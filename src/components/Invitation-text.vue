@@ -34,21 +34,30 @@
   justify-content: center;
   padding: 50px;
   margin-bottom: 50px;
+
+  @media (max-width: 600px) {
+    padding: 20px !important;
+  }
+
 }
 
 .invitation-article {
+
+
   background: #f1e9de;
   padding: 30px;
   position: relative;
   direction: rtl;
   width: 100%;
-  font-family: "Noto Nastaliq Urdu", serif;
+  font-family: "Noto Nastaliq Urdu",
+  serif;
   position: relative;
   color: #585045;
   box-shadow: -5px 12px 41px -4px rgba(0, 0, 0, 0.61);
   -webkit-box-shadow: -5px 12px 41px -4px rgba(0, 0, 0, 0.61);
   -moz-box-shadow: -5px 12px 41px -4px rgba(0, 0, 0, 0.61);
   font-size: 18px;
+
   p {
     margin-bottom: 5px;
   }
@@ -57,9 +66,7 @@
     font-size: 16px;
   }
 
-  @media (max-width: 500px) {
-
-  }
+  @media (max-width: 500px) {}
 }
 
 .flower {

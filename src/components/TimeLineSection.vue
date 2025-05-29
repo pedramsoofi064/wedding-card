@@ -11,7 +11,7 @@
             <locationIcon class="timeline-item__icon" />
 
             <div class="timeline-item__time">18:00</div>
-            <div class="timeline-item__title">Welcome</div>
+            <div class="timeline-item__title">ورود</div>
           </div>
         </template>
       </q-timeline-entry>
@@ -22,7 +22,7 @@
             <locationIcon class="timeline-item__icon" />
 
             <div class="timeline-item__time">18:00</div>
-            <div class="timeline-item__title">Welcome</div>
+            <div class="timeline-item__title">ورود</div>
           </div>
         </template>
 
@@ -34,7 +34,7 @@
             <locationIcon class="timeline-item__icon" />
 
             <div class="timeline-item__time">18:00</div>
-            <div class="timeline-item__title">Welcome</div>
+            <div class="timeline-item__title">ورود</div>
           </div>
         </template>
 
@@ -76,7 +76,7 @@ import locationIcon from './icons/location-icon.vue'
   gap: 0.5rem;
 
   &__icon {
-    width: 100px;
+    width: 80px;
     fill: $primary;
   }
 

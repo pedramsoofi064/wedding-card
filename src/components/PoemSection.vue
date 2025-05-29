@@ -1,6 +1,6 @@
 <template>
   <div class="poem">
-    <q-parallax :height="400" :speed="0.5">
+    <q-parallax :height="600" :speed="0.5">
       <template v-slot:media>
         <img class="peom__img" :src="imgSrc">
       </template>
@@ -38,7 +38,7 @@ const imgSrc = computed(() => new URL(`/src/assets/img/${props.image}`, import.m
     align-items: center;
     justify-content: center;
     font-size: 28px;
-    color: $secondary;
+    color: #fcfaf7;
     font-family: "Noto Nastaliq Urdu", serif;
     z-index: 2;
     direction: rtl;
@@ -64,7 +64,7 @@ const imgSrc = computed(() => new URL(`/src/assets/img/${props.image}`, import.m
     position: absolute;
     inset: 0;
     background-color: $primary;
-    opacity: 0.45;
+    opacity: 0.3;
     z-index: 1;
   }
 
