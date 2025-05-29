@@ -44,19 +44,21 @@
 .invitation-article {
 
 
-  background: #f1e9de;
-  padding: 30px;
+  // background: #f1e9de;
+  // padding: 30px;
   position: relative;
   direction: rtl;
   width: 100%;
+  max-width: 800px;
   font-family: "Noto Nastaliq Urdu",
   serif;
   position: relative;
-  color: #585045;
-  box-shadow: -5px 12px 41px -4px rgba(0, 0, 0, 0.61);
-  -webkit-box-shadow: -5px 12px 41px -4px rgba(0, 0, 0, 0.61);
-  -moz-box-shadow: -5px 12px 41px -4px rgba(0, 0, 0, 0.61);
-  font-size: 18px;
+  color: #b0a08a;
+  font-size: 22px;
+  // box-shadow: -5px 12px 41px -4px rgba(0, 0, 0, 0.61);
+  // -webkit-box-shadow: -5px 12px 41px -4px rgba(0, 0, 0, 0.61);
+  // -moz-box-shadow: -5px 12px 41px -4px rgba(0, 0, 0, 0.61);
+  // font-size: 18px;
 
   p {
     margin-bottom: 5px;
@@ -87,15 +89,15 @@
 
 }
 
-.invitation-article::after {
-  content: "";
-  position: absolute;
-  // top: 100%;
-  height: 40px;
-  width: 100%;
-  left: 0;
-  bottom: -35px;
-  background: url(../assets/img/invitation-container.svg) bottom;
-  background-size: 200%;
-}
+// .invitation-article::after {
+//   content: "";
+//   position: absolute;
+//   // top: 100%;
+//   height: 40px;
+//   width: 100%;
+//   left: 0;
+//   bottom: -35px;
+//   background: url(../assets/img/invitation-container.svg) bottom;
+//   background-size: 200%;
+// }
 </style>

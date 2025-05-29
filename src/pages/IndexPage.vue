@@ -13,7 +13,7 @@
         the wedding time
       </div> -->
     <InvitationText />
-    <PoemSection image="test3-1.jpg" :texts="peom" />
+    <PoemSection image="test3-2.jpg" :texts="peom" />
     <TimeLineSection />
     <CountDownSection />
     <AddressSection />

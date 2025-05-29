@@ -1,6 +1,6 @@
 <template>
   <div class="poem">
-    <q-parallax :height="600" :speed="0.5">
+    <q-parallax :height="550" :speed="0.5">
       <template v-slot:media>
         <img class="peom__img" :src="imgSrc">
       </template>

@@ -138,12 +138,18 @@
   // width: 320px;
 
   // min-height: 40vh;
-  max-height: 90vh;
+  // max-height: 90vh;
   margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   >img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    max-height: 90vh;
   }
 
   @media (max-width: 996px) {
@@ -157,29 +163,28 @@
 
   .info {
     position: absolute;
-    bottom: 30%;
+    bottom: 20%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    z-index: 6;
   }
 
   .names {
     font-family: "Love Light", cursive;
 
     font-weight: 500;
-    font-size: 70px;
+    font-size: 100px;
     height: 75px;
 
-    @media (max-width: 500px) {
-      margin-bottom: 5px;
-      font-size: 60px;
+    @media (max-width: 700px) {
+      font-size: 70px;
+
     }
-    @media (max-width: 450px) {
-      margin-bottom: 5px;
-      font-size: 50px;
-    }
+
+
 
   }
 
@@ -187,8 +192,16 @@
     display: flex;
     gap: 10px;
     font-family: "Comme", sans-serif;
-    font-size: 14px;
+    font-size: 25px;
     font-weight: 500;
+    margin-top: 50px;
+
+
+    @media (max-width: 700px) {
+      font-size: 18px;
+
+    }
+
   }
 
 
