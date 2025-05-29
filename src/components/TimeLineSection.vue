@@ -1,8 +1,7 @@
 <template>
   <div class="q-px-lg q-py-md">
 
-    <div class="texts">
-    </div>
+
     <q-timeline layout="loose" color="primary">
 
       <q-timeline-entry side="left">
@@ -55,7 +54,7 @@ import locationIcon from './icons/location-icon.vue'
   flex-direction: column;
   align-items: center;
   margin-block: 30px;
-  font-family: "Vazirmatn", sans-serif;
+  font-family: "Peyda";
   font-optical-sizing: auto;
   font-size: 30px;
   color: $primary;
@@ -70,6 +69,8 @@ import locationIcon from './icons/location-icon.vue'
   display: flex;
   flex-direction: column;
   // align-items: flex-end;
+  font-family: "Peyda";
+
   align-items: center;
   justify-content: center;
   color: $primary;

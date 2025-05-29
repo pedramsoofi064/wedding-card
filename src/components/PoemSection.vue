@@ -23,12 +23,20 @@ import { computed } from 'vue';
 
 const props = defineProps(['image', 'texts'])
 
-const imgSrc = computed(() => new URL(`/src/assets/img/${props.image}`, import.meta.url).href)
+const imgSrc = computed(() => new URL(`../assets/img/${props.image}`, import.meta.url).href)
 
 </script>
 
 <style scoped lang="scss">
 .poem {
+  margin-bottom: 30px;
+  display: none;
+
+  @media (max-width: 700px) {
+    display: block;
+    /* … */
+  }
+
   &__text {
     width: 100%;
     height: 100%;

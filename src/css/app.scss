@@ -32,9 +32,46 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fbf9f3
+  background-color: #fbf9f3;
 }
 
 p {
   margin: 0;
+}
+
+@font-face {
+  font-family: Peyda;
+  font-style: normal;
+  font-weight: 900;
+  src: url('../assets/fonts/peyda/ttf/Peyda-Black.ttf');
+}
+@font-face {
+  font-family: Peyda;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../assets/fonts/peyda/ttf/Peyda-Bold.ttf');
+}
+@font-face {
+  font-family: Peyda;
+  font-style: normal;
+  font-weight: 500;
+  src: url('../assets/fonts/peyda/ttf/Peyda-Medium.ttf');
+}
+@font-face {
+  font-family: Peyda;
+  font-style: normal;
+  font-weight: 300;
+  src: url('../assets/fonts/peyda/ttf/peyda-light.ttf');
+}
+@font-face {
+  font-family: Peyda;
+  font-style: normal;
+  font-weight: 200;
+  src: url('../assets/fonts/peyda/ttf/Peyda-Thin.ttf');
+}
+@font-face {
+  font-family: Peyda;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../assets/fonts/peyda/ttf/Peyda-Regular.ttf');
 }

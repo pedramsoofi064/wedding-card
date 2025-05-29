@@ -9,10 +9,10 @@
         <span class="item__title">مسیریابی </span>
         <div class="link-container">
           <a class="link-item" href="https://maps.app.goo.gl/5QEjcMBsp7u6bRTBA" target="_blank">
-            <img src="src/assets/img/google-maps.webp" />
+            <img src="../assets/img/google-maps.webp" />
           </a>
           <a class="link-item" href="https://nshn.ir/08_b10EDNJWb2r" target="_blank">
-            <img src="src/assets/img/neshan.webp" />
+            <img src="../assets/img/neshan.webp" />
           </a>
         </div>
       </div>
@@ -37,6 +37,8 @@
   padding: 50px;
   // padding-bottom: 0;
   direction: rtl;
+  font-family: "Peyda";
+
 
   &__boxes {
     display: grid;

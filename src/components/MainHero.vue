@@ -2,7 +2,7 @@
   <div class="invite-wrapper">
     <!-- Hidden SVG for clip path -->
     <div class="invite-mobile">
-      <img src="src/assets/img/test1.png" alt="">
+      <img src="../assets/img/test1.png" alt="">
       <div class="info">
         <div class="names">Negin & Pedram</div>
         <div class="dates">
@@ -19,7 +19,7 @@
       </div>
     </div>
     <div class="invite-desktop">
-      <img src="src/assets/img/org.png" alt="">
+      <img src="../assets/img/org.png" alt="">
       <div class="info">
         <div class="names">Negin & Pedram</div>
         <div class="dates">
