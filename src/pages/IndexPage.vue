@@ -17,8 +17,9 @@
         the wedding time
       </div> -->
         <InvitationText />
-        <PoemSection image="test3-1.jpg" :texts="peom" />
+        <BannerSection />
         <TimeLineSection />
+        <PoemSection image="test3-1.jpg" :texts="peom" />
         <CountDownSection />
         <AddressSection />
       </div>
@@ -34,7 +35,7 @@
 
 <script setup>
 import MainHero from 'src/components/MainHero.vue';
-// import BannerSection from 'src/components/BannerSection.vue';
+import BannerSection from 'src/components/BannerSection.vue';
 import TimeLineSection from 'src/components/TimeLineSection.vue';
 import PoemSection from 'src/components/PoemSection.vue';
 import CountDownSection from 'src/components/CountDownSection.vue';
