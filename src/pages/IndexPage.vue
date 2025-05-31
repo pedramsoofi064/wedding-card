@@ -19,9 +19,11 @@
         <InvitationText />
         <BannerSection />
         <TimeLineSection />
-        <PoemSection image="test3-1.jpg" :texts="peom" />
-        <CountDownSection />
-        <AddressSection />
+        <div style="background-color:#f1e9de;">
+          <PoemSection image="poem.jpg" :texts="peom" />
+          <CountDownSection />
+          <AddressSection />
+        </div>
       </div>
     </div>
 
@@ -96,9 +98,12 @@ const peom = [
 }
 
 .page-container {
-  max-width: 480px;
+  width: 480px;
+
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   background-color: white;
+  overflow-y: hidden;
+
 
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="poem">
-    <q-parallax :height="550" :speed="0.5">
+    <q-parallax :height="350" :speed="0.5">
       <template v-slot:media>
         <img class="peom__img" :src="imgSrc">
       </template>
@@ -29,8 +29,22 @@ const imgSrc = computed(() => new URL(`../assets/img/${props.image}`, import.met
 
 <style scoped lang="scss">
 .poem {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   display: none;
+  position: relative;
+
+  &::before {
+    content: "";
+    background-image: url('../assets/img/torn2.png');
+    position: absolute;
+    background-size: cover;
+    top: -2px;
+    height: 56px;
+    width: 100%;
+    left: 0;
+    background-repeat: no-repeat;
+    z-index: 5;
+  }
 
   @media (max-width: 700px) {
     display: block;
@@ -45,12 +59,13 @@ const imgSrc = computed(() => new URL(`../assets/img/${props.image}`, import.met
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 28px;
+    font-size: 22px;
     color: #fcfaf7;
     font-family: "Noto Nastaliq Urdu", serif;
     z-index: 2;
     direction: rtl;
     font-weight: bold;
+    margin-top: 25px;
 
     // line-height: normal;
     p {
@@ -61,10 +76,7 @@ const imgSrc = computed(() => new URL(`../assets/img/${props.image}`, import.met
       }
     }
 
-    @media (max-width: 450px) {
-      font-size: 22px;
-      /* … */
-    }
+
 
   }
 
@@ -72,8 +84,8 @@ const imgSrc = computed(() => new URL(`../assets/img/${props.image}`, import.met
     position: absolute;
     inset: 0;
     background-color: $primary;
-    opacity: 0.3;
-    z-index: 1;
+    opacity: 0.15;
+    z-index: 2;
   }
 
   &__img {

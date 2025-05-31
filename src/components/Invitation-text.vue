@@ -31,12 +31,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px;
+  padding: 20px;
   margin-bottom: 50px;
-
-  @media (max-width: 600px) {
-    padding: 20px !important;
-  }
 
 }
 
@@ -53,7 +49,7 @@
   serif;
   position: relative;
   color: #b0a08a;
-  font-size: 22px;
+  font-size: 18px;
   // box-shadow: -5px 12px 41px -4px rgba(0, 0, 0, 0.61);
   // -webkit-box-shadow: -5px 12px 41px -4px rgba(0, 0, 0, 0.61);
   // -moz-box-shadow: -5px 12px 41px -4px rgba(0, 0, 0, 0.61);
@@ -63,11 +59,7 @@
     margin-bottom: 5px;
   }
 
-  @media (max-width: 600px) {
-    font-size: 16px;
-  }
 
-  @media (max-width: 500px) {}
 }
 
 .flower {

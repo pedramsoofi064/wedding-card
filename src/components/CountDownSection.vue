@@ -64,7 +64,8 @@ onUnmounted(() => {
 <style scoped>
 .countdown {
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
+  padding-top: 25px;
   background-color: #f1e9de;
   color: #585045;
   font-family: "Peyda", sans-serif;

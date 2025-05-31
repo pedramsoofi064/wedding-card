@@ -13,7 +13,8 @@
 
 <style lang="scss" scoped>
 .banner {
-  margin-block: 50px;
+  margin-bottom: 50px;
+  margin-top: 20px;
   height: 400px;
   position: relative;
 

@@ -47,6 +47,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     filter: blur(2px);
+    background-position: center;
 
 
     // >img {
@@ -76,9 +77,16 @@
     font-weight: 500;
     font-size: 110px;
     height: 140px;
-    &.pedram  {
+
+    &.pedram {
       margin-left: 20%;
     }
+
+    @media (max-width: 470px) {
+      font-size: 90px;
+      /* … */
+    }
+
 
   }
 

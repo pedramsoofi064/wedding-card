@@ -1,5 +1,5 @@
 <template>
-  <div class="address q-pa-md">
+  <div class="address">
     <div class="address__boxes">
       <div class="address__item">
         <span class="item__title">آدرس تالار</span>
@@ -34,25 +34,24 @@
 
 <style lang="scss" scoped>
 .address {
-  padding: 50px;
+  // padding: 50px;
   // padding-bottom: 0;
   direction: rtl;
   font-family: "Peyda";
-
+  margin-block: 1rem;
+  padding-inline:2rem;
 
   &__boxes {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    grid-template-columns: 1fr ;
+    gap: 10px;
     font-family: "Vazirmatn", sans-serif;
-    @media (max-width: 500px) {
-grid-template-columns: 1fr;
-}
 
   }
 
   &__item {
-    padding: 20px;
+    // padding: 20px;
+    padding: 5px;
     border-radius: 10px;
     background-color: #f1e9de;
     display: flex;
@@ -84,6 +83,7 @@ grid-template-columns: 1fr;
 
   &__location {
     width: 100%;
+
     >iframe {
       width: 100%;
     }
