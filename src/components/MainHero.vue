@@ -67,16 +67,16 @@
     display: flex;
     flex-direction: column;
     z-index: 6;
-    margin-left: 20px;
     width: 100%;
   }
 
   .names {
     font-family: "Love Light", cursive;
+    margin-left: 20px;
 
     font-weight: 500;
     font-size: 110px;
-    height: 140px;
+    height: 130px;
 
     &.pedram {
       margin-left: 20%;
