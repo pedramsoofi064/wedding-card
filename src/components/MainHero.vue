@@ -132,7 +132,7 @@
     background-image: url('../assets/img/torn1.png');
     position: absolute;
     background-size: cover;
-    bottom: 97%;
+    bottom: 95%;
     height: 65px;
     width: 100%;
     left: 0;
