@@ -20,7 +20,6 @@
       <p>با مهر</p>
       <p><strong>نگین حداد</strong> و <strong>پدرام صوفی</strong></p>
 
-      <img src="../assets/img/flower_bg.png" class="flower" />
     </article>
   </div>
 

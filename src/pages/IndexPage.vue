@@ -8,15 +8,22 @@
 
       </div>
     </div> -->
-    <MainHero />
-    <!-- <div class="wedding-time">
+    <div class="fullpage">
+      <div class="fullpage-bg"></div>
+      <div class="page-container">
+
+        <MainHero />
+        <!-- <div class="wedding-time">
         the wedding time
       </div> -->
-    <InvitationText />
-    <PoemSection image="test3-1.jpg" :texts="peom" />
-    <TimeLineSection />
-    <CountDownSection />
-    <AddressSection />
+        <InvitationText />
+        <PoemSection image="test3-1.jpg" :texts="peom" />
+        <TimeLineSection />
+        <CountDownSection />
+        <AddressSection />
+      </div>
+    </div>
+
 
 
 
@@ -67,5 +74,30 @@ const peom = [
   font-size: 50px;
   font-family: "Love Light", cursive;
   color: #585045;
+}
+
+.fullpage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.fullpage-bg {
+  background-image: url('../assets/img/bg.jpg');
+  background-size: cover;
+  /* background-position: center; */
+  filter: blur(5px);
+  position: fixed;
+  z-index: -1;
+  inset: 0;
+}
+
+.page-container {
+  max-width: 480px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-color: white;
+
 }
 </style>
