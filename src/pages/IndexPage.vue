@@ -88,7 +88,7 @@ const peom = [
 }
 
 .fullpage-bg {
-  background-image: url('../assets/img/bg.jpg');
+  background-image: url('../assets/img/hero3.jpg');
   background-size: cover;
   /* background-position: center; */
   filter: blur(5px);
