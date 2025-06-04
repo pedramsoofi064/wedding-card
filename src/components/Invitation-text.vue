@@ -18,7 +18,7 @@
       <p>چهارشنبه ۲۸ خرداد - ساعت ۱۸</p>
       <br />
       <p>با مهر</p>
-      <p><strong>نگین حداد</strong> و <strong>پدرام صوفی</strong></p>
+      <p><strong> حداد</strong> و <strong> صوفی</strong></p>
 
     </article>
   </div>
@@ -32,7 +32,7 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
 
 }
 

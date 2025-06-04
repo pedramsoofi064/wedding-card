@@ -53,7 +53,7 @@
           <div class="timeline-item">
             <img class="timeline-item__icon" src="../assets/img/cake.png" alt="">
 
-            <div class="timeline-item__time">21:00</div>
+            <div class="timeline-item__time">21:30</div>
             <div class="timeline-item__title">رقص چاقو</div>
           </div>
         </template>
