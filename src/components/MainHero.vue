@@ -63,7 +63,7 @@
 
   .info {
     position: absolute;
-    bottom: 20%;
+    bottom: 25%;
     color: white;
     color: #c6b49c;
 
