@@ -97,8 +97,6 @@ onUnmounted(() => {
 }
 
 .label {
-  font-size: 1rem;
-  letter-spacing: 1px;
-  margin-top: 0.5rem;
+ 
 }
 </style>

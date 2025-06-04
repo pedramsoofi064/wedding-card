@@ -1,7 +1,7 @@
 <template>
   <div class="banner">
     <div class="banner__img">
-      <img src="../assets/img/banner.jpg" alt="">
+      <img src="../assets/img/banner2.jpg" alt="">
     </div>
     <div class="banner__bg"> </div>
   </div>
@@ -15,13 +15,13 @@
 .banner {
   margin-bottom: 50px;
   margin-top: 20px;
-  height: 400px;
+  height: 350px;
   position: relative;
 
   // overflow: hidden;
   &__img {
-    width: 350px;
-    height: 400px;
+    width: 270px;
+    height: 300px;
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     z-index: 2;
@@ -33,9 +33,9 @@
   }
 
   &__bg {
-    width: 350px;
-    height: 400px;
-    background-color: #8b7e6d;
+    width: 270px;
+    height: 300px;
+    background-color: #e4dfd8;
     position: absolute;
     top: 0;
     z-index: 1;

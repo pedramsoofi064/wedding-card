@@ -20,7 +20,7 @@
         <BannerSection />
         <TimeLineSection />
         <div style="background-color:#f1e9de;">
-          <PoemSection image="poem.jpg" :texts="peom" />
+          <PoemSection image="poem2.jpg" :texts="peom" />
           <CountDownSection />
           <AddressSection />
         </div>

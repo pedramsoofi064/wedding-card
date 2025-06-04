@@ -48,7 +48,7 @@
   font-family: "Noto Nastaliq Urdu",
   serif;
   position: relative;
-  color: #b0a08a;
+  color: #c6b49c;
   font-size: 18px;
   // box-shadow: -5px 12px 41px -4px rgba(0, 0, 0, 0.61);
   // -webkit-box-shadow: -5px 12px 41px -4px rgba(0, 0, 0, 0.61);

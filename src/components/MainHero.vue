@@ -43,10 +43,10 @@
     position: absolute;
     inset: 0;
     height: 110vh;
-    background-image: url(../assets/img/hero.jpg);
+    background-image: url(../assets/img/hero3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    filter: blur(2px);
+    // filter: blur(2px);
     background-position: center;
 
 
@@ -67,25 +67,27 @@
     display: flex;
     flex-direction: column;
     z-index: 6;
-    margin-left: 20px;
+    padding-inline: 35px;
     width: 100%;
+    background-color: rgba($color: #000000, $alpha: 0.3);
+    padding-block: 15px;
   }
 
   .names {
     font-family: "Love Light", cursive;
 
     font-weight: 500;
-    font-size: 110px;
-    height: 140px;
+    font-size: 70px;
+    height: 85px;
 
     &.pedram {
-      margin-left: 20%;
+      margin-left: 15%;
     }
 
-    @media (max-width: 470px) {
-      font-size: 90px;
-      /* … */
-    }
+    // @media (max-width: 470px) {
+    //   font-size: 70px;
+    //   /* … */
+    // }
 
 
   }
@@ -124,7 +126,7 @@
   justify-content: center;
   font-size: 50px;
   font-family: "Love Light", cursive;
-  color: #b0a08a;
+  color: #c6b49c;
   position: relative;
 
   &::before {

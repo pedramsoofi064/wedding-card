@@ -30,7 +30,6 @@ const imgSrc = computed(() => new URL(`../assets/img/${props.image}`, import.met
 <style scoped lang="scss">
 .poem {
   margin-bottom: 10px;
-  display: none;
   position: relative;
 
   &::before {
@@ -46,10 +45,6 @@ const imgSrc = computed(() => new URL(`../assets/img/${props.image}`, import.met
     z-index: 5;
   }
 
-  @media (max-width: 700px) {
-    display: block;
-    /* … */
-  }
 
   &__text {
     width: 100%;
