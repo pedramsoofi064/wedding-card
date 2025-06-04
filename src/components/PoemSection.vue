@@ -78,7 +78,7 @@ const imgSrc = computed(() => new URL(`../assets/img/${props.image}`, import.met
   &__overlay {
     position: absolute;
     inset: 0;
-    background-color: $primary;
+    background-color: black;
     opacity: 0.15;
     z-index: 2;
   }
