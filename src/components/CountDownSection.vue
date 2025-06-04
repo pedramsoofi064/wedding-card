@@ -68,7 +68,7 @@ onUnmounted(() => {
   padding-top: 25px;
   background-color: #f1e9de;
   color: #585045;
-  font-family: "Peyda", sans-serif;
+  font-family: "Vazirmatn", sans-serif;
 }
 
 .title {

@@ -37,7 +37,6 @@
   // padding: 50px;
   // padding-bottom: 0;
   direction: rtl;
-  font-family: "Peyda";
   margin-block: 1rem;
   padding-inline:2rem;
 

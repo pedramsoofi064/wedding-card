@@ -98,8 +98,7 @@
   flex-direction: column;
   align-items: center;
   margin-block: 30px;
-  font-family: "Peyda";
-  font-optical-sizing: auto;
+  font-family: "Vazirmatn", sans-serif;
   font-size: 30px;
   color: $primary;
 
@@ -113,12 +112,12 @@
   display: flex;
   flex-direction: column;
   // align-items: flex-end;
-  font-family: "Peyda";
 
   align-items: center;
   justify-content: center;
   color: $primary;
   gap: 0.5rem;
+  font-family: "Vazirmatn", sans-serif;
 
   &__icon {
     width: 80px;
