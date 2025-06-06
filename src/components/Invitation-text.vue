@@ -17,8 +17,8 @@
       <p>شما را به تماشای آغاز این قصه‌ی مشترک فرا می‌خوانیم...</p>
       <p>چهارشنبه ۲۸ خرداد - ساعت ۱۸</p>
       <br />
-      <p>با مهر</p>
-      <p><strong> حداد</strong> و <strong> صوفی</strong></p>
+      <p style="margin-bottom: 10px;">با مهر،</p>
+      <p> نگین حداد  <span style="margin-inline: 3px;">و</span> پدارم  صوفی </p>
 
     </article>
   </div>

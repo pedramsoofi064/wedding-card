@@ -43,7 +43,7 @@
     position: absolute;
     inset: 0;
     height: 110vh;
-    background-image: url(../assets/img/hero3.jpg);
+    background-image: url(../assets/img/hero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     // filter: blur(2px);
@@ -139,7 +139,7 @@
     content: "";
     background-image: url('../assets/img/torn1.png');
     position: absolute;
-    background-size: contain;
+    background-size: cover;
     bottom: -10px;
     height: 65px;
     width: 100%;
