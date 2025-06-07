@@ -3,7 +3,7 @@
     <div class="address__boxes">
       <div class="address__item">
         <span class="item__title">آدرس تالار</span>
-        <span class="item__value"> ابتدای شاندیز ، خیابان امام رضا(ع)، بعد از امام رضا 3</span>
+        <span class="item__value"> ابتدای شاندیز ، خیابان امام رضا(ع)، بعد از امام رضا 3، تالار تخت جمشید ، طبقه سوم (روف گاردن)</span>
       </div>
       <div class="address__item">
         <span class="item__title">مسیریابی </span>
